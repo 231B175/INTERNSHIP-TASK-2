@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 2 - Intermediate Web Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Interactive Website</h1>
+    </header>
+
+    <!-- Contact Form -->
+    <section class="form-section">
+
+        <h2>Contact Form</h2>
+
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Enter Your Name">
+            <input type="email" id="email" placeholder="Enter Your Email">
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </section>
+
+    <!-- To-Do List -->
+    <section class="todo-section">
+
+        <h2>My To-Do List</h2>
+
+        <input type="text" id="taskInput" placeholder="Enter Task">
+
+        <button onclick="addTask()">Add Task</button>
+
+        <ul id="taskList"></ul>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
